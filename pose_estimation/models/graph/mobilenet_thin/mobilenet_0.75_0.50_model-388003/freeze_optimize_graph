@@ -1,0 +1,17 @@
+python -m tensorflow.python.tools.freeze_graph \
+  --input_graph=graph.pb \
+  --output_graph=graph_freeze.pb \
+  --input_checkpoint=model-388003.ckpt \
+  --output_node_names="Openpose/MConv_Stage6_L{aux}_5"
+
+/home/k_p0w3r/Libraries/tensorflow/bazel-bin/tensorflow/tools/graph_transforms/transform_graph \
+	--in_graph=graph_freeze\
+	--out_graph=graph_opt.pb \
+	--inputs='image:0' \
+	--outputs='Openpose/concat_stage7:0' \
+	--transforms='
+	strip_unused_nodes(type=float, shape="1,368,368,3")
+	remove_nodes(op=Identity, op=CheckNumerics)
+	fold_constants(ignoreError=False)
+	fold_old_batch_norms
+	fold_batch_norms'
