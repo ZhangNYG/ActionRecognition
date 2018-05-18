@@ -9,9 +9,6 @@ Pose estimation algortihm is based on [tensorflow implementation](https://github
 
 <p align="left">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/asd1.gif", width="400">
-</p>
-
-<p align="left">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/asd2.gif", width="400">
 </p>
 <p align="left">
