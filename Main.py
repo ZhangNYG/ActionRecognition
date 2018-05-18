@@ -2,17 +2,30 @@ import cv2
 import numpy as np
 from Detection import *
 from Tracker import *
+import argparse
 
 
-# video_path = "video.avi"
-# video_path = "sample_walking.avi"
-input_video = "demo.mp4"
 
-output_video = 'outsample.avi'
-Save_video = False
+
+
 
 
 if __name__ == '__main__':
+	parser = argparse.ArgumentParser()
+	parser.add_argument("--in", type=str, default="demo.mp4",
+	                    help="Input Video")
+	parser.add_argument("--out", type=str, default=None,
+	                    help="Output Video")
+
+	args = parser.parse_args()
+	input_video = args.in
+	Output = args.out
+
+	if(output_video is None):
+	    Save_video = False
+	else:
+	    Save_video = True
+
     vc = cv2.VideoCapture(input_video)
     index = 0
 
