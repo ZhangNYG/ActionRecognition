@@ -7,9 +7,18 @@ By Kenessary Koishybay, Nauryzbek Razakhbergenov, Anara Sandygulova. Nazarbayev 
 Pose estimation algortihm is based on [tensorflow implementation](https://github.com/ildoonet/tf-pose-estimation) of
 [Realtime Multi-Person Pose Estimation](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation)   
 
-<a href="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/demo.avi" target="_blank">
-	<img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT HERE" 
-	     width="200" height="300" border="10" /></a>  
+<p align="left">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/asd1.gif", width="400">
+</p>
+
+<p align="left">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/asd2.gif", width="400">
+</p>
+<p align="left">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/demo.gif", width="400">
+</p>
+
+
 Requirements:
 - Python 2.7  
 - OpenCV3  
