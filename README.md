@@ -27,7 +27,7 @@ Requirements:
 	
 ## Running
 To run my code you need to type:  
-  python -B Main.py &lt;input_video&gt; &lt;output_video>&gt;
+  python -B Main.py &lt;input_video&gt; &lt;output_video&gt;
   
 
 ## Training
