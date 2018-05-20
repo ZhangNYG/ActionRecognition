@@ -93,7 +93,7 @@ If you wan't to train our activity recognition algorithm to increase accuracy, f
 
 ### Data Extraction
 
-We extracted data samples from [KTH](http://www.nada.kth.se/cvap/actions/) dataset. 
+We extracted data samples from [KTH](http://www.nada.kth.se/cvap/actions/) dataset.   
 Code is in ExtractData folder.
 
 
