@@ -29,7 +29,7 @@ Requirements:
 To run my code you need to type:  
 &nbsp;&nbsp;&nbsp;&nbsp;python -B Main.py &lt;input_video&gt; &lt;output_video&gt;  
 Here, arguments <input_video> and <output video> are optional, 
-and default values can be seen in 
+and default values can be seen in the code.
   
 ## How it works
 ### Pose Estimation
