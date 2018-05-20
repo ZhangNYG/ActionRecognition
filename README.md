@@ -62,7 +62,7 @@ We use pose estimation for Detection and collecting coordinates (x,y) of body ke
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/track_alg.jpg">
 </p>
-Note, that we decided to remove code concerning **EWMA** in the final version.
+Note, that we decided to remove code concerning <b>EWMA</b> in the final version.
 
 ## Training
 
