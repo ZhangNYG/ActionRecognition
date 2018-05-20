@@ -45,7 +45,9 @@ Architecture:
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/arch.jpg">
 </p>
-However after looking that even prediction on that architecture takes too much time we use here Mobile Net.
+However, after looking that even prediction on that architecture takes too much time, we use Mobile Net
+in the final version.
+We use pose estimation for **Detection** and collecting coordinates (x,y) of body key-points. 
 
 ## Training
 
