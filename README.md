@@ -27,8 +27,18 @@ Requirements:
 	
 ## Running
 To run my code you need to type:  
-  python -B Main.py &lt;input_video&gt; &lt;output_video&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;python -B Main.py &lt;input_video&gt; &lt;output_video&gt;  
+Here, arguments <input_video> and <output video> are optional, 
+and default values can be seen in 
   
+## How it works
+### Pose Estimation
+
+<p align="center">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png", width="400">
+</p>
+
+
 
 ## Training
 
@@ -37,7 +47,9 @@ To run my code you need to type:
 
 
 
-### Model Selection and training
+### Model Selection and Training
 
+
+## TODO
 
 
