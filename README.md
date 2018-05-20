@@ -30,7 +30,7 @@ Requirements:
 ## Running
 To run my code you need to type:  
 &nbsp;&nbsp;&nbsp;&nbsp;python -B Main.py &lt;input_video&gt; &lt;output_video&gt;  
-Here, arguments <input_video> and <output video> are optional, 
+Here, arguments <input_video> and <output_video> are optional, 
 and default values can be seen in the code.
   
 ## How it works  
@@ -62,7 +62,9 @@ We use pose estimation for Detection and collecting coordinates (x,y) of body ke
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/track_alg.jpg">
 </p>
-Note, that we decided to remove code concerning <b>EWMA</b> in the final version.
+
+
+Note, that we decided to remove code concerning **EWMA** in the final version.
 
 ### Activity Recognition 
 
