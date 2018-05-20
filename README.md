@@ -36,8 +36,9 @@ and default values can be seen in
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png", width="400">
 </p>
-Pose estimation is the process of locating body key points.  
-Pose estimation problem is usually solved by training Deep Learning architectures with annotated datasets such as MPII  or COCO.
+Pose estimation is the process of locating body key points.<br/>
+Pose estimation problem is usually solved by training Deep Learning architectures with annotated datasets such as 
+[MPII](http://human-pose.mpi-inf.mpg.de)  or [COCO].
 
 
 ## Training
