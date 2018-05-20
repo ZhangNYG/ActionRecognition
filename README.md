@@ -72,7 +72,7 @@ Note, that we decided to remove code concerning **EWMA** in the final version.
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/recog.png">
 </p>
 
-For every N frame:
+For every (N = 10)th frame:
 1. Open pose features calculated for every tracked humans
 2. This features is then added to the previous features of the tracks
 3. If the length of resulting feature vectors of specific tracks is large enough, feature vectors will be converted to data samples
@@ -88,7 +88,7 @@ For every N frame:
 
 ### Data Extraction
 <p align="center">
-	Single Data Sample Length:</br>  
+	Single Data Sample Len:<br/>  
 290 = 2*14*10 (x,y coords of 14 body parts in 10 frames) + 10(indexes of each frame)
 </p>
 
