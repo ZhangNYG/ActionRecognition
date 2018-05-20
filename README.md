@@ -88,7 +88,7 @@ For every N frame:
 
 ### Data Extraction
 <p align="center">
-	Single Data Sample Length:  
+	Single Data Sample Length:</br>  
 290 = 2*14*10 (x,y coords of 14 body parts in 10 frames) + 10(indexes of each frame)
 </p>
 
