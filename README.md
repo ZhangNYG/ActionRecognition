@@ -64,6 +64,15 @@ We use pose estimation for Detection and collecting coordinates (x,y) of body ke
 </p>
 Note, that we decided to remove code concerning <b>EWMA</b> in the final version.
 
+### Activity Recognition
+For every N frame:
+1. Open pose features calculated for every tracked humans
+2. This features is then added to the previous features of the tracks
+3. If the length of resulting feature vectors of specific tracks is large enough, feature vectors will be converted to data samples
+4. These data samples is then goes as input to the machine learning algorithm (XGBoost)
+5. XGBoost classifies activity of each data sample as code.
+6. Code is then decoded into Activity Labels
+
 ## Training
 
 
