@@ -34,12 +34,18 @@ and default values can be seen in
 ## How it works
 ### Pose Estimation
 <p align="center">
-<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png", width="400">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png">
 </p>
 Pose estimation is the process of locating body key points.<br/>
 Pose estimation problem is usually solved by training Deep Learning architectures with annotated datasets such as 
-[MPII](http://human-pose.mpi-inf.mpg.de) or [COCO].
-
+<a href="http://human-pose.mpi-inf.mpg.de">MPII</a> or <a href="http://cocodataset.org/">COCO</a><br/>
+We didn't have computational power to train on these datasets. Thus, we used pre-trained model mentioned at the beginning.
+</br>
+Architecture:
+<p align="center">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png">
+</p>
+However after looking that even prediction on that architecture takes too much time we use here Mobile Net.
 
 ## Training
 
