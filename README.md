@@ -66,6 +66,9 @@ Note, that we decided to remove code concerning <b>EWMA</b> in the final version
 
 ### Activity Recognition 
 
+<p align="center">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/recog.png">
+</p>
 
 For every N frame:
 1. Open pose features calculated for every tracked humans
@@ -75,9 +78,7 @@ For every N frame:
 5. XGBoost classifies activity of each data sample as code.
 6. Code is then decoded into Activity Labels
 
-<p align="center">
-<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/recog.png">
-</p>
+
 
 
 ## Training
