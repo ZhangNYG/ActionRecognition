@@ -1,6 +1,6 @@
 # ActionRecognition
-### Graduation Project for Bachelor Degree. 
 ### Action Recognition based on pose estimation.  
+**Graduation Project for Bachelor Degree**</br> 
 By Kenessary Koishybay, Nauryzbek Razakhbergenov.</br>
 Mentor: Anara Sandygulova. **Nazarbayev University**
 
