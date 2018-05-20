@@ -34,11 +34,12 @@ Here, arguments <input_video> and <output video> are optional,
 and default values can be seen in the code.
   
 ## How it works
+**hello**
 ### Pose Estimation
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png">
 </p>
-**hello**
+
 Pose estimation is the process of locating body key points.<br/>
 Pose estimation problem is usually solved by training Deep Learning architectures with annotated datasets such as 
 <a href="http://human-pose.mpi-inf.mpg.de">MPII</a> or <a href="http://cocodataset.org/">COCO</a> 
