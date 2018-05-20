@@ -40,7 +40,8 @@ and default values can be seen in the code.
 </p>
 Pose estimation is the process of locating body key points.<br/>
 Pose estimation problem is usually solved by training Deep Learning architectures with annotated datasets such as 
-<a href="http://human-pose.mpi-inf.mpg.de">MPII</a> or <a href="http://cocodataset.org/">COCO</a><br/>
+<a href="http://human-pose.mpi-inf.mpg.de">MPII</a> or <a href="http://cocodataset.org/">COCO</a> **hello**
+<br/>
 We didn't have computational power to train on these datasets. Thus, we tried pre-trained model mentioned at the beginning.
 <br/>
 Architecture:
@@ -58,6 +59,8 @@ We use pose estimation for Detection and collecting coordinates (x,y) of body ke
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/track_alg.jpg">
 </p>
+
+
 ## Training
 
 
