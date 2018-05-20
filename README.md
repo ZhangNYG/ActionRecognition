@@ -78,6 +78,8 @@ For every N frame:
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/recog.png">
 </p>
+
+
 ## Training
 
 
