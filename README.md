@@ -33,8 +33,9 @@ To run my code you need to type:
 Here, arguments <input_video> and <output video> are optional, 
 and default values can be seen in the code.
   
-## How it works
-**hello**
+## How it works  
+
+
 ### Pose Estimation
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png">
@@ -61,7 +62,7 @@ We use pose estimation for Detection and collecting coordinates (x,y) of body ke
 <p align="center">
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/track_alg.jpg">
 </p>
-### 
+Note, that we decided to remove code concerning EWMA in the final version.
 
 ## Training
 
