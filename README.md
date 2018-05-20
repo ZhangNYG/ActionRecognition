@@ -43,7 +43,7 @@ We didn't have computational power to train on these datasets. Thus, we used pre
 </br>
 Architecture:
 <p align="center">
-<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/pose.png">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/arch.jpg">
 </p>
 However after looking that even prediction on that architecture takes too much time we use here Mobile Net.
 
