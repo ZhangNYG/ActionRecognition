@@ -38,7 +38,7 @@ and default values can be seen in
 </p>
 Pose estimation is the process of locating body key points.<br/>
 Pose estimation problem is usually solved by training Deep Learning architectures with annotated datasets such as 
-[MPII](http://human-pose.mpi-inf.mpg.de)  or [COCO].
+[MPII](http://human-pose.mpi-inf.mpg.de) or [COCO].
 
 
 ## Training
