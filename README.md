@@ -72,6 +72,11 @@ Note, that we decided to remove code concerning **EWMA** in the final version.
 <img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/recog.png">
 </p>
 
+<p align="center">
+Single Data Sample Length:<br/>  
+290 = 2*14*10 (x,y coords of 14 body parts in 10 frames) + 10(indexes of each frame)
+</p>
+
 For every (N = 10)th frame:
 1. Open pose features calculated for every tracked humans
 2. This features is then added to the previous features of the tracks
@@ -84,13 +89,12 @@ For every (N = 10)th frame:
 
 
 ## Training
-
+If you wan't to train our activity recognition algorithm to increase accuracy, first you should **extract suitable data** from videos dataset.
 
 ### Data Extraction
-<p align="center">
-	Single Data Sample Len:<br/>  
-290 = 2*14*10 (x,y coords of 14 body parts in 10 frames) + 10(indexes of each frame)
-</p>
+
+We extracted data samples from [KTH](http://www.nada.kth.se/cvap/actions/) dataset. 
+Code is in ExtractData folder.
 
 
 ### Model Selection and Training
