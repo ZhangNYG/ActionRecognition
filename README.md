@@ -65,6 +65,9 @@ We use pose estimation for Detection and collecting coordinates (x,y) of body ke
 Note, that we decided to remove code concerning <b>EWMA</b> in the final version.
 
 ### Activity Recognition
+<p align="center">
+<img src="https://github.com/I3orn2FLY/Git_add-ons/blob/master/ActivityRecognition/recog.png">
+</p>
 For every N frame:
 1. Open pose features calculated for every tracked humans
 2. This features is then added to the previous features of the tracks
