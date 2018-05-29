@@ -33,14 +33,13 @@ Needed body parts for extraction can be edited at the beginning of <Detection.py
 <br/>
 We chose 14 key point data for extraction, thinking that with this data, it is 
 possible to fully recognize defined actions.<br/>
-Thus, Data consists of x,y coords of 14 body parts in {n} frames. Where {n} is 10.<br/> 
+<b>Thus, Data consists of x,y coords of 14 body parts in {n} frames. Where {n} is 10.</b><br/><br/>
 The reasoning behind value for {n}, is that we extract key-points data only each 2 or 3 
 frames. Therefore,
 10 frames will map to the 20-30 frames in real video. If our program can process only 10-15 fps then it means 
 that data will cover 1-3 seconds of video in real-time. We suggest, that this amount of data is enough to 
-recognize simple actions like in our dataset.<br/>
-
-<br/>Evidently,these numbers are not something we tested very much, so, feel free to experiment with these numbers.<br/>
+recognize simple actions like in our dataset.  
+Evidently,these numbers are not something we tested very much, so, feel free to experiment with these numbers.<br/>
 <br/>
 <br/>Consequently,
 <p align="center">
