@@ -41,8 +41,8 @@ that data will cover 1-3 seconds of video in real-time. We suggest, that this am
 recognize simple actions like in our dataset.  
 Evidently,these numbers are not something we tested very much, so, feel free to experiment with these numbers.<br/>
 <br/>
-<br/>Consequently,
+<br/>Consequently,Single Data Sample Length:
 <p align="center">
-Single Data Sample Length:<br/>  
+<br/>  
 290 = 2*14*10 (x,y coords of 14 body parts in 10 frames) + 10(indexes of each frame)
 </p>
